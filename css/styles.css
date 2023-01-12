@@ -1,0 +1,170 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat' sans-serif;
+}
+p {
+    color: #8f8f8f;
+}
+/* Headings */
+.section-heading {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Sections */
+.color-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white-section {
+    background-color: #fff;
+}
+
+/* Nav Bar */
+.navbar {
+    padding-bottom: 2.5rem;
+}
+.navbar-brand {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+.nav-item {
+    padding: 0 18px;
+    text-align: right;
+}
+.nav-link {
+    font-weight:400;
+    font-size: 1rem;
+}
+
+/* Title section */
+#title {
+
+}
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+.title-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+/* Buttons */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+#cta .btn-light {
+    margin-right: 0;
+}
+
+/* Title image */
+.title-image {
+    width: 22%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 24.5%;
+}
+
+/* Features section */
+#features {
+    position: relative;
+    z-index: 1;
+}
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+.feature-icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.feature-icon:hover {
+    color: #ff4c68;
+}
+.feature-heading {
+    font-weight: 700;
+}
+
+/* Testimonial section */
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+}
+.testimonial-img {
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press section */
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+.price-label {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.price-heading {
+font-weight: 700;
+}
+
+/* CTA section */
+#cta {
+    text-align: center;
+}
+.title-heading {
+    font-size: 3rem;
+}
+
+/* Footer section */
+#footer {
+    text-align: center;
+}
+#footer .container-fluid {
+    padding-bottom: 3%;
+}
+.social-icon {
+    margin: 20px 10px;
+    text-decoration: none;
+    color: #000;
+}
+.social-icon:hover {
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 900px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+}
